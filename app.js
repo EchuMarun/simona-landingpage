@@ -47,7 +47,6 @@ function renderHome() {
       <img class="card-media" src="${category.imagen}" alt="${category.nombre}" loading="lazy" onerror="this.onerror=null;this.src='img/logo.png';" />
       <div class="card-body">
         <h3 class="card-title">${category.nombre}</h3>
-        <p class="tagline">Ver productos</p>
       </div>
     </a>
   `).join("");

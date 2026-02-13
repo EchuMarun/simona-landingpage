@@ -311,6 +311,36 @@ select {
   color: rgba(233, 225, 212, 0.88);
 }
 
+.social-links {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid rgba(233, 225, 212, 0.3);
+  border-radius: 999px;
+  color: var(--footer-text);
+  background: rgba(255, 255, 255, 0.04);
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+.social-link svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
 @media (min-width: 700px) {
   .filters {
     grid-template-columns: 1.4fr 1fr;
