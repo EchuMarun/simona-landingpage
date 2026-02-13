@@ -1,5 +1,5 @@
 ﻿// Configuración editable para el número de WhatsApp.
-const WHATSAPP_PHONE = "5493413226579"; // placeholder editable
+const WHATSAPP_PHONE = "5493416906290"; // Argentina (+54 9) + numero local
 
 function formatPrice(value) {
   return new Intl.NumberFormat("es-AR", {
