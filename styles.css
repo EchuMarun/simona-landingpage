@@ -322,11 +322,13 @@ select {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border: 1px solid rgba(233, 225, 212, 0.3);
   border-radius: 999px;
   color: var(--footer-text);
   background: rgba(255, 255, 255, 0.04);
+  font-size: 0.88rem;
+  line-height: 1;
   transition: background 0.18s ease, transform 0.18s ease;
 }
 
@@ -336,9 +338,26 @@ select {
 }
 
 .social-link svg {
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   fill: currentColor;
+}
+
+@media (max-width: 480px) {
+  .social-links {
+    gap: 6px;
+  }
+
+  .social-link {
+    gap: 6px;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+  }
+
+  .social-link svg {
+    width: 11px;
+    height: 11px;
+  }
 }
 
 @media (min-width: 700px) {
