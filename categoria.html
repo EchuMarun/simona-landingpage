@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Categoría | SIMONA (demo)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="category">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="img/logo.png" alt="SIMONA" />
+      </a>
+      <a class="btn btn-ghost" href="index.html">Volver</a>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 id="categoryTitle">Categoría</h1>
+    <p id="categorySubtitle" class="muted"></p>
+    <div class="filters" aria-label="Filtros de productos">
+      <input id="searchInput" type="search" placeholder="Buscar..." />
+      <select id="sizeFilter">
+        <option value="">Todos</option>
+      </select>
+    </div>
+    <div id="productGrid" class="product-grid"></div>
+  </main>
+
+  <a id="floatingWhatsapp" class="wa-float" href="#" target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
